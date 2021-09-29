@@ -4,11 +4,161 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+
+   <title>Home</title>
 </head>
 <body>
-   <h1>Hellow world</h1>
-   <p>I'm hosted with GitHub Pages.</p>
-   
+   <header class="header">
+      <h2 class="header__logo">nordic rose</h2>
+      <nav class="header__menu">
+         <a class="header__link link" href="#">blog</a>
+         <a class="header__link link" href="#">about</a>
+         <a class="header__link link" href="#">links</a>
+         <a class="header__link link" href="#">projects</a>
+      </nav>   
+   </header>
+
+
+<main class="main">
+   <section class="main__header container">
+      <h1 class="main__header__title">A&nbsp;few words about this blog platform, Ghost, and how this site was made</h1>
+      <p class="main__header__text">Why Ghost (&amp;&nbsp;Figma) instead of&nbsp;Medium, WordPress or&nbsp;other options?</p>
+   </section>
+   <section class="main__img">
+      <img src="main-first.png" alt="">
+   </section>
+   <section class="main__major">
+      <div class="container">
+         <div class="first__segment">
+            <div class="first__segment-user">
+               <div class="user__data">
+                  <img src="mika.jpg" alt="">
+                  <div class="user__data__name">
+                     <h3>Mika MAtikainen</h3>
+                     <p class="user-lastEntry">Apr 15, 2020 · 4 min read</p>
+                  </div>
+               </div>
+               <div class="social">
+                  <a href="https://www.facebook.com/" class="link link-icon">
+                     <svg class="icon">
+                        <use xlink:href="sprite.svg#facebook"></use>
+                     </svg></a>
+                  <a href="https://twitter.com/" class="link link-icon">
+                     <svg class="icon">
+                        <use xlink:href="sprite.svg#twitter"></use>
+                     </svg>
+                  </a>
+               </div>
+            </div>
+
+            <p class="first__segment-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu&nbsp;velit tempus erat egestas efficitur. In&nbsp;hac habitasse platea dictumst. Fusce a&nbsp;nunc eget ligula suscipit finibus. Aenean pharetra quis lacus at&nbsp;viverra.<br/><br/>Class aptent taciti sociosqu ad&nbsp;litora torquent per conubia nostra, per inceptos himenaeos. Aliquam quis posuere ligula. In&nbsp;eu&nbsp;dui molestie, molestie lectus&nbsp;eu, semper lectus.</p>
+         </div>
+         <div class="second__segment">
+            <h2 class="second__segment-title">Next on the pipeline</h2>
+            <p class="second__segment-text">Duis eu&nbsp;velit tempus erat egestas efficitur. In&nbsp;hac habitasse platea dictumst. Fusce a&nbsp;nunc eget ligula suscipit finibus. Aenean pharetra quis lacus at&nbsp;viverra. Class aptent taciti sociosqu ad&nbsp;litora torquent per conubia nostra, per inceptos himenaeos.<br/><br/>Morbi efficitur auctor metus, id&nbsp;mollis lorem pellentesque&nbsp;id. Nullam posuere maximus dui et&nbsp;fringilla.</p>
+            <figure class="block-img">
+               <img src="main-second.png" alt="">
+               <figcaption class="block-img__text">Image caption centered this way and I&rsquo;ll make this a&nbsp;bit longer to&nbsp;indicate the amount of&nbsp;line-height. </figcaption>
+            </figure>
+            <p  class="second__segment-text">Aenean pharetra quis lacus at viverra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam quis posuere ligula.<br/><br/>In eu dui molestie, molestie lectus eu, semper lectus. Proin at justo lacinia, auctor nisl et, consequat ante. Donec sit amet nisi arcu. Morbi efficitur auctor metus, id mollis lorem pellentesque id. Nullam posuere maximus dui et fringilla. Nulla non volutpat leo.</p>
+            <div class="third__segment">
+               <p>A list looks like this:</p>
+               <ul class="third-segment-list list">
+                  <li>First item in&nbsp;the list</li>
+                  <li>Second item in&nbsp;the list lorem ipsum dolor sit amet nunc felis dolor lorem ipsum sit amet</li>
+                  <li>Third item in&nbsp;the list</li>
+               </ul>
+               <p class="third__segment-text">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam quis posuere ligula. </p>
+               <p>Thanks for reading,<br/>Mika</p>
+            </div>
+            
+         </div>
+      </div>
+   </section>
+   <section class="main__footer">
+      <div class="container">
+         <div class="btns">
+            <a class="btn"> 
+               <svg class="icon">
+                  <use xlink:href="sprite.svg#facebook"></use>
+               </svg>
+               Share on Facebook
+            </a>
+            <a class="btn"> 
+               <svg class="icon">
+                  <use xlink:href="sprite.svg#twitter"></use>
+               </svg>   
+               Share on Twitter
+            </a>
+         </div>
+         <p class="tags">Tags: <span>product disign</span>, <span>culture</span></p>
+         <div class="main__footer__dignity">
+            <img src="mika.jpg" alt="">
+            <p><span> Mika Matikainen</span> is&nbsp;a&nbsp;Design Founder &amp;&nbsp;Advisor, Berlin School of&nbsp;Creative Leadership Executive MBA participant, Zippie advisor, Wolt co-founder, and Nordic Rose stakeholder.</p>
+         </div>
+      </div>
+   </section>
+</main>
+
+
+
+<div class="otherPublications">
+   <h2 class="otherPublications__title">What to read next</h2>
+   <div class="cards">
+      <div class="card card-1">
+         <img src="card-1.png" alt="">
+         <p>Connecting artificial intelligence with digital product design</p>
+      </div>
+      <div class="card card-2">
+         <img src="card-2.png" alt="">
+         <p>Hello world, or, in other words, why this blog exists</p>
+      </div>
+      <div class="card card-3">
+         <img src="card-3.png" alt="">
+         <p>Here are some things you should know regarding how we work </p>
+      </div>
+      <div class="card card-4">
+         <img src="card-4.png" alt="">
+         <p>A few words about this blog platform, Ghost, and how this site was made</p>
+      </div>
+      <div class="card card-5">
+         <img src="card-5.png" alt="">
+         <p>Updating list of 50+ sources on distributed teams, remote work, and how to make it all work better</p>
+      </div>
+      <div class="card card-6">
+         <img src="card-6.png" alt="">
+         <p>How modern remote working tools get along with Old School Cowboy's methods</p>
+      </div>
+   </div>
+   <div class="newsletter">
+      <h3 class="newsletter__title">Sign up for the newsletter</h3>
+      <p class="newsletter__text">If&nbsp;you want relevant updates occasionally, sign up&nbsp;for the private newsletter. Your email is&nbsp;never shared.</p>
+      <div class="sudscribe">
+         <input type="email" placeholder="Enter your email...">
+         <button class="">sign up</button>
+      </div>
+   </div>
+</div>
+
+
+<footer class="footer">
+   <div class="footer__inner">
+      <h2 class="footer__inner__title">NORDIC ROSE</h2>
+      <p class="footer__inner__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu&nbsp;velit tempus erat egestas efficitur. In&nbsp;hac habitasse platea dictumst. Fusce a&nbsp;nunc eget ligula suscipit finibus.</p>
+   </div>
+   <div class="social">
+      <a href="https://twitter.com/" class="link">Twitter</a>
+      <a href="https://linkedin.com/" class="link">LinkedIn</a>
+      <a href="https://ru.wikipedia.org/wiki/RSS" class="link">rss</a>
+   </div> 
+   <div class="footer__bottom">
+      <p>&copy;&nbsp;2012&ndash;2020 Nordic Rose Co. All rights reserved.</p>
+   </div>
+
+</footer>
+
 </body>
 </html>
+
+   
